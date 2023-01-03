@@ -1,0 +1,236 @@
+record(ao, "FE-{Number}-DIW-out:T1") {}
+record(ao, "FE-{Number}-DIW-out:T2") {}
+record(ao, "FE-{Number}-DIW-out:T3") {}
+record(ao, "FE-{Number}-premask:T1") {}
+record(ao, "FE-{Number}-premask:T2") {}
+record(ao, "FE-{Number}-mask1:T1") {}
+record(ao, "FE-{Number}-mask1:T2") {}
+record(ao, "FE-{Number}-mask1:T3") {}
+record(ao, "FE-{Number}-mask1:T4") {}
+record(ao, "FE-{Number}-mask2:T1") {}
+record(ao, "FE-{Number}-mask2:T2") {}
+record(ao, "FE-{Number}-mask2:T3") {}
+record(ao, "FE-{Number}-mask2:T4") {}
+record(ao, "FE-{Number}-PAB:T1") {}
+record(ao, "FE-{Number}-PAB:T2") {}
+record(ao, "FE-{Number}-PAB:T3") {}
+record(ao, "FE-{Number}-PAB:T4") {}
+record(ao, "FE-{Number}-PAB:T5") {}
+record(ao, "FE-{Number}-slit1:T1") {}
+record(ao, "FE-{Number}-slit1:T2") {}
+record(ao, "FE-{Number}-slit1:T3") {}
+record(ao, "FE-{Number}-slit1:T4") {}
+record(ao, "FE-{Number}-slit2:T1") {}
+record(ao, "FE-{Number}-slit2:T2") {}
+record(ao, "FE-{Number}-slit2:T3") {}
+record(ao, "FE-{Number}-slit2:T4") {}
+record(ao, "FE-{Number}-DIW-in:T1") {}
+record(ao, "FE-{Number}-IP1:Pressure") {}
+record(ao, "FE-{Number}-IP1:Volt") {}
+record(ao, "FE-{Number}-IP2:Pressure") {}
+record(ao, "FE-{Number}-IP2:Volt") {}
+record(ao, "FE-{Number}-IPA:Pressure") {}
+record(ao, "FE-{Number}-IPA:Volt") {}
+record(ao, "FE-{Number}-IPB:Pressure") {}
+record(ao, "FE-{Number}-IPB:Volt") {}
+record(ao, "FE-{Number}-IPC:Pressure") {}
+record(ao, "FE-{Number}-IPC:Volt") {}
+record(ao, "FE-{Number}-FS1:Record") {}
+record(ao, "FE-{Number}-FS2:Record") {}
+record(ao, "FE-{Number}-FS3:Record") {}
+record(ao, "FE-{Number}-FS4:Record") {}
+record(ao, "FE-{Number}-CP_Air:Record") {}
+record(ao, "FE-{Number}-FS5:Record") {}
+record(ao, "FE-{Number}-FS6:Record") {}
+record(ao, "FE-{Number}-IG1:Pressure") {}
+record(ao, "FE-{Number}-IG2:Pressure") {}
+
+record(bo , "FE-{Number}-PAB:Open") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-PAB:Close") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-MGV:Open") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-MGV:Close") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FCV:Trigger") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FCV:Open") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FCV:Close") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-HMS:Open1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-HMS:Close1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-HMS:Open2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-HMS:Close2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-GV1:Open") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-GV1:Close") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-BLA:MGV-Push") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-BLA:HMS-Push") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-BLA:PAB-Push") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-BLA:FE-Reset") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-BLA:AutoOpen") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-BLA:Emergency") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-BLA:Vacuum") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-BLA:Ready") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-Safety:Enable1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-Safety:Enable2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-Safety:Emergency1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-Safety:Emergency2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-CR:Enable") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IG1:SetPoint1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IG1:SetPoint2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IG2:SetPoint1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IG2:SetPoint2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IP1:SetPoint1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IP1:SetPoint2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IP2:SetPoint1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IP2:SetPoint2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IPA:SetPoint1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IPA:SetPoint2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IPB:SetPoint1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IPB:SetPoint2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IPC:SetPoint1") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-IPC:SetPoint2") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FS1:SetPoint") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FS2:SetPoint") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FS3:SetPoint") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FS4:SetPoint") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FS5:SetPoint") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-FS6:SetPoint") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+record(bo , "FE-{Number}-CP-Air:SetPoint") {
+    field(ZNAM, "False")
+    field(ONAM, "True")
+}
+
